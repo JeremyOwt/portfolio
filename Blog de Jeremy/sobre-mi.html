@@ -1,50 +1,186 @@
 <!DOCTYPE html>
 <html lang="es" class="h-100">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sobre mi</title>
-    <link rel="stylesheet" href="css/bootstrap-5.3.2-dist/css/bootstrap.min.css">
-    <script src="css/bootstrap-5.3.2-dist/js/bootstrap.bundle.min.js"></script>
-    <link rel="stylesheet" href="css/fontawesome-free-6.4.2-web/css/all.min.css">
-    <link rel="stylesheet" href="estiloss.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sobre mi</title>
+  <link rel="stylesheet" href="css/bootstrap-5.3.2-dist/css/bootstrap.min.css">
+  <script src="css/bootstrap-5.3.2-dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="css/fontawesome-free-6.4.2-web/css/all.min.css">
+  <link rel="stylesheet" href="estiloss.css">
 </head>
-<header class="container">
+
+<body id="sobre-mi" class="d-flex flex-column h-100">
+  <header class="container">
     <nav class="navbar navbar-expand-md mb-4">
-        <div class="container-fluid">
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav me-auto mb-2 mb-md-0">
-              <li class="nav-item">
-                <a class="nav-link" href="index.html">Inicio</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" href="sobre-mi.html">Sobre mi</a>
-              </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="proyectos.html">Proyectos</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="contacto.html">Contacto</a>
-                </li>
-            </ul>
-                <ul>
-                    <a href="files/guevoparadojeremy.pdf"  class="btn btn-rojo" href="contacto.html">Descargar Cv</a>
-                </ul>
-              </div>
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+          aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav me-auto mb-2 mb-md-0">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="sobre-mi.html">Sobre mi</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="proyectos.html">Proyectos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contacto.html">Contacto</a>
+            </li>
+          </ul>
+          <ul>
+            <a href="files/guevoparadojeremy.pdf" class="btn btn-rojo" href="contacto.html">Descargar Cv</a>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section id="bio" class="container">
+      <div class="row">
+        <div class="col-12 py-4">
+          <h1>Sobre mi</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 col-sm-6">
+          <p>Siempre me a gustado la programacion, y estoy implementandola ahora</p>
+        </div>
+        <a href="contacto.html" class="btn btn-rojo my-5 d-none d-sm-block w-25">Enviar mensaje</a>
+        <div class="col-10 col-sm-3 py-5 pe-5 d-none d-sm-block">
+          <img src="imagenes/img jeremy.png" alt="jeremy" class="img-fluid">
+        </div>
+    </section>
+    <section id="stack">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h2 class="py-5">Stack tecnologico</h2>
+          </div>
+          <div class="col-6 col-sm-2">
+            <div class="tecnologia mb-4">
+              <h3 class="pt-5 pb-1">Javascript</h3>
+              <i class="fa-brands fa-js pb-5">
+              </i>
             </div>
-          </nav>   
-          <main class="container">
-            <div class="row">
-                <div class="col-12 py-4">
-                    <h1>Sobre mi</h1>
-                </div>
+          </div>
+          <div class="col-6 col-sm-2">
+            <div class="tecnologia mb-4">
+              <h3 class="pt-5 pb-1">PHP</h3>
+              <i class="fa-brands fa-php pb-5"></i>
             </div>
-            <div class="row">
-                <div class="col-12 col-sm-6">
-                    <p>Siempre me a gustado la programacion, y estoy implementandola ahora</p>
-                </div> 
-                <a href="contacto.html" class="btn btn-rojo my-5 d-none d-sm-block w-25">Enviar mensaje</a>
-                
+          </div>
+          <div class="col-6 col-sm-2">
+            <div class="tecnologia mb-4">
+              <h3 class="pt-5 pb-1">HTML</h3>
+              <i class="fa-brands fa-html5 pb-5"></i>
+            </div>
+          </div>
+          <div class="co-6 col-sm-2">
+            <div class="tecnologia mb-4">
+              <h3 class="pt-5 pb-1">API Rest</h3>
+              <i class="fa-solid fa-gears pb-5"></i>
+            </div>
+          </div>
+          <div class="co-6 col-sm-2">
+            <div class="tecnologia mb-4">
+              <h3 class="pt-5 pb-1">Laravel</h3>
+              <i class="fa-brands fa-laravel pb-5"></i>
+            </div>
+          </div>
+          <div class="co-6 col-sm-2">
+            <div class="tecnologia mb-4">
+              <h3 class="pt-5 pb-1">Bootstrap</h3>
+              <i class="fa-brands fa-bootstrap pb-5"></i>
+            </div>
+          </div>
+          <div class="co-6 col-sm-2">
+            <div class="tecnologia mb-4">
+              <h3 class="pt-5 pb-1">MySQL</h3>
+              <i class="fa-solid fa-database pb-5"></i>
+            </div>
+          </div>
+          <div class="co-6 col-sm-2">
+            <div class="tecnologia mb-4">
+              <h3 class="pt-5 pb-1">CSS</h3>
+              <i class="fa-brands fa-css3-alt pb-5"></i>
+            </div>
+          </div>
+          <div class="co-6 col-sm-2">
+            <div class="tecnologia mb-4">
+              <h3 class="pt-5 pb-1">GIT</h3>
+              <i class="fa-brands fa-git pb-5"></i>
+            </div>
+          </div>
+          <div class="co-6 col-sm-2">
+            <div class="tecnologia mb-4">
+              <h3 class="pt-5 pb-1">React.js</h3>
+              <i class="fa-brands fa-react pb-5"></i>
+            </div>
+          </div>
+          <div class="co-6 col-sm-2">
+            <div class="tecnologia mb-4">
+              <h3 class="pt-5 pb-1">Mercadopago</h3>
+              <i class="fa-solid fa-wallet pb-5"></i>
+            </div>
+          </div>
+          <div class="co-6 col-sm-2">
+            <div class="tecnologia mb-4">
+              <h3 class="pt-5 pb-1">Amazon AWS</h3>
+              <i class="fa-brands fa-aws pb-5"></i>
+            </div>
+          </div>
+          <div class="co-6 col-sm-2">
+            <div class="tecnologia mb-4">
+              <h3 class="pt-5 pb-1">Linux</h3>
+              <i class="fa-brands fa-linux pb-5"></i>
+            </div>
+          </div>
+          <div class="co-6 col-sm-2">
+            <div class="tecnologia mb-4">
+              <h3 class="pt-5 pb-1">Apache</h3>
+              <i class="fa-solid fa-server pb-5"></i>
+            </div>
+          </div>
+          <div class="co-6 col-sm-2">
+            <div class="tecnologia mb-4">
+              <h3 class="pt-5 pb-1">Paypal</h3>
+              <i class="fa-brands fa-paypal pb-5"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="experiencia" class="container">
+      <div class="row">
+        <div class="col-12">
+          <h2 class="pt-5 pb-4">Experiencia laboral</h2>
+        </div>
+      </div>
+      <div class="row shadow">
+        <div class="col-sm-2 d-none d-sm-block p-5">
+          <img src="imagenes/primer trabajo.png" alt="Gamefire" class="img-fluid">
+        </div>
+      </div>
+      
+
+    </section>
+
+
+
+
+    </div>
+
+
+
+
+
+
+  </main>
+</body>

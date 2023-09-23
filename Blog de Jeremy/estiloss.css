@@ -134,8 +134,50 @@ footer .fa-github{
 
 }
 .my-5{
-    position: absolute; 
     left: 100px; 
     top: 220px;
-    
+    width: 12% !important;
+    margin-right: 500px;
+    margin-top: 3rem!important;
+    margin-bottom: 3rem!important;
+    height: 35px;
+   
+}
+#bio img{
+    border-radius: 50% !important;
+}
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+#stack{
+    background: linear-gradient(90deg, rgba(125, 7, 7, 1) 0%, 
+    rgba(215, 11, 11, 1) 100%);
+}
+#stack .tecnologia {
+    background-color: white;
+    text-align: center;
+    border-radius: 5%;
+}
+#stack .tecnologia i {
+    font-size: 60px;
+    color: #6A6A6A;
+}
+#stack h2{
+    color: white;
+    font-size: 24px;
+}
+#stack h3 {
+    font-size: 14px;
+    color: #282828;
+    font-weight: 300;
+}
+.py-5 {
+    padding-top: 3rem!important;
+    padding-bottom: 3rem!important;
+}
+#experiencia h2{
+    font-weight: 400;
+    font-size: 24px;
+    color: #370A6D;
 }
