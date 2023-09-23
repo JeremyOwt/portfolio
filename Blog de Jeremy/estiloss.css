@@ -39,11 +39,12 @@ p{
     background-size: cover;
     }
 
-    #contacto, #Inicio{
+#contacto, #Inicio{
         background-image: url('imagenes/fondo-contacto.png');
         background-repeat: no-repeat;
         background-size: cover;
         }
+
 textarea{
     height: 190px;
 }
