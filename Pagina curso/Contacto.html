@@ -1,0 +1,129 @@
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+   <link rel="stylesheet" href="Css/estilos.css">
+   <link rel="stylesheet" href="Css/fontawesome-free-6.4.2-web/css/all.min.css">
+</head>
+
+<body id="Contacto">
+    <header>
+        <nav>
+    <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="Nosotros.html">Nosotros</a></li>
+        <li><a href="Contacto.html"a>Contacto</a></li>
+    </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Contacto</h1>
+        <form action="" method="post">
+                <div class="form-group">
+                    <label for="txtNombre">Nombre: *</label>
+                    <input type="text" name="txtNombre" id="txtNombre" required>  
+                </div>
+
+
+                <div class="form-group">
+                    <label for="txtCorreo">Correo: *</label>
+                    <input type="email" name="txtCorreo" id="txtCorreo" required>
+                </div>
+
+                <div class="form-group">
+                    <label for=""></label>
+
+                </div>
+
+                <div class="form-group">
+                    <label for="txtTelefono">Telefono: *</label>
+                    <input type="tel" name="txtTelefono" id="txtTelefono" placeholder="(cod) 54 11 5787 669">
+
+                </div>
+
+                <div class="form-group">
+                    <label for="txtFecha">Fecha de nacimiento: *</label>
+                    <input type="date" name="txtFecha" id="txtFecha"> 
+                </div>
+
+                <div class="form-group">
+                    <label for="IstPais">Pais de origen</label>
+                    <select name="IstPais" id="IstPais" class="">
+
+                    <option value="" selected disabled>Seleccionar</option>
+                    <optgroup label="Sudamerica">
+                    <option value="54">Argentina</option>
+                    <option value="55">Brasil</option>
+                    <option value="57">Colombia</option>
+                    </optgroup>
+
+                    <optgroup label="Europa">
+                    <option value="34">España</a></option>
+                    <option value="33">Francia</option>
+                    <option value="49">Alemania</option>
+                    </optgroup>
+                </select>
+
+                </div>
+
+                <div class="form-group">
+                    <label for="IstAsunto">Asunto: *</label>
+                    <select name="IstAsunto" id="IstAsunto" required>
+                    <option value="" selected disabled>Seleccionar</option>
+                    <option value="Soporte">Soporte</option>
+                    <option value="Ventas">Ventas</option>
+                    <option value="Webmaster">Webmaster</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="txtMensaje">Mensaje: *</label>
+                    <textarea name="txtMensaje" id="textMensaje" required class="form-control"></textarea>
+                </div>
+
+
+                <div class="form-group">
+                    <input type="checkbox" name="chkNewsletter" id="chkNewsletter">
+                    <label for="chkNewsletter">Deseo recibir mensajes sobre novedades</label>
+                </div>
+
+                <div class="form-group">
+                    <input type="checkbox" name="chkCondiciones" id="chkCondiciones">
+                    <label for="chkCondiciones">Acepto terminos y condiciones</label>
+                </div>
+                <div class="opciones form-group"> 
+                    <label>Eres mayor de edad?</label>
+
+                    <label for="optMayorSi">Si </label>
+                    <input type="radio" name="optMayorEdad" id="optMayorSi">
+
+                    <label for="optMayorNo">No</label>
+                    <input type="radio" name="optMayorEdad" id="optMayorNo">
+                </div>
+
+                <div class="form-group">
+                   <button type="submit" id="btnEnviar" name="btnEnviar">Enviar</button>
+                </div>
+            
+                </form>
+            
+         </main>
+
+         <footer>
+            <div>
+                <a href="https:api.whatsapp.com/sendphone=5411624232" target="_blank" 
+                title="Escribenos por Whatsapp"></a>
+                    <i class="fa-brands fa-whatsapp"></i>
+    
+                <a href="https://linkedin.com" target="_blank" title="Siguenos en Linkedin"></a>
+                    <i class="fa-brands fa-linkedin"></i>
+    
+                <a href="https://www.youtube.com/" target="_blank" title="Siguenos en youtube"></a>
+                    <i class="fa-brands fa-youtube"></i>
+    
+            </div>
+            </footer>
+</body>
+</html>

@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+html {  
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px;
+}
+h1{
+        color:red;
+        font-size: 36;
+        text-align:center
+    }
+p{
+        font-size: 16;
+        font-weight: 600;
+    }
+h3{
+    text-decoration: underline;
+    color: red;
+
+}
+
+.texto-destacado{
+    font-weight: 800;
+
+}
+h2{
+    font-size: 24;
+    color:gray
+}
+.Texto-descriptivo{
+    color: green;
+    font-weight:bold;
+}
+.Negrita-Valores{
+    font-weight: 800;
+}
+.Articulo-Nuevo{
+    color: indigo;
+}
+#Contacto{
+    background-color: white;
+}
+#Nosotros{
+    background-color: white;
+}
+input:focus, textarea:focus, select:focus {
+    background-color: #eee;
+
+}
+
+.Producto{
+    background-color: #eee;
+    width: 290px;
+    display: inline-block;
+    padding: 50px;
+    border-radius: 10px;
+    margin: 50px;
+}
+.Producto img{
+    margin: auto;
+    display: block;
+    height: 150px;
+}
+.Producto h3{
+    text-align: center;
+}
+.seccion-video{
+    background-color: #eee;
+    border-radius: 15px;
+    padding: 40px;
+}
+
+nav{
+display: block;
+text-align: center;
+background-color: red;
+
+}
+nav ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 14px 0px;
+
+}
+
+nav li{
+    display: inline;
+
+}
+nav a{   
+    text-decoration: none;
+    color: white;
+    padding: 0px 50px;
+
+}
+main{
+    margin: 20px 10%;
+
+
+}
+nav a:hover {
+    text-decoration: underline;
+}
+    
+form{
+    width: 600;
+    border: #eee 1px solid;
+    border-radius: 8px;
+    display: block;
+    margin: auto;
+    padding: 25px;
+
+}
+form input[type=text], 
+form input[type=tel], 
+form input[type=date], 
+form input[type=email], 
+form select, 
+textarea{
+    border: 1px solid red;
+    border-radius: 8px;
+    width: 100%;
+    height: 25px;
+    display: block;
+}   
+.form-group{
+    padding-bottom: 12px;
+}
+form select{  
+height: 30px;
+
+}
+    
+textarea{
+    height: 180px;
+    resize: none;
+}
+#btnEnviar{
+    color: white;
+    background-color: red;
+    border-radius: 8px;
+    font-size: 18px;
+    padding: 8px 20px;
+    border: 1px solid red;
+    display: block;
+    margin: auto;
+}
+#btnEnviar:hover{
+color: red;
+background-color: white;
+}
+footer i{
+    font-size: 35px;
+    border: 1px solid;
+    height: 48px;
+    width: 58px;
+    text-align: center;
+    padding: 10px 0 0 0;
+    border-radius: 80px;
+    margin: 0 15px;
+    color: red;
+
+}
+footer a{
+    text-decoration: none;
+}
+footer{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.video{
+    width: 100%;
+    height: 550px;
+
+   
+}
+@media (max-width: 460px){
+    
+}
+    h1{
+        font-size: 28px;
+    
+    }
+    h2{
+        font-size: 22px;
+
+    }
+    h3{
+        font-size: 20px;
+
+    } 
+    p{
+        font-size: 14px;
+        line-height: 20px;
+    
+    }

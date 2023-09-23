@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+h1{
+    color: #E20000;
+    font-size: 36px;
+}
+p{
+    font-size: 16px;
+    color: #6a6a6a;
+}
+.btn-blanco{
+    background-color: white;
+    border-radius: 20px;
+
+}
+.btn-blanco:hover, .btn-rojo:hover{
+    background-color: #370a6d;
+    color: white;
+}
+.btn-rojo{
+    background-color: red;
+    border-radius: 20px;
+    color: white;
+    font-weight: 200;
+}
+.link-rojo{
+    color: #E20000;
+    text-decoration: underline;
+
+}
+    
+
+
+#Proyectos{
+    background-image: url('imagenes/fondo-proyectos.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+
+    #contacto, #Inicio{
+        background-image: url('imagenes/fondo-contacto.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        }
+textarea{
+    height: 190px;
+}
+nav .active{
+    border: 1px solid #E20000;
+
+}
+nav a{
+    padding: 8px 25px !important;
+    border-radius: 30px;
+}
+footer, footer a{
+    color: white;
+    font-weight: 200;
+}
+#Proyectos footer, #Proyectos footer a{
+    color: #E20000;
+}
+footer .fa-linkedin-in{
+    color: #E20000;
+    font-size: 28px;
+    background-color: white;
+    border-radius: 22px;
+    padding: 8px 8px 4px 8px;
+    margin-left: 10px;
+}
+footer .fa-github{
+    font-size: 38px;
+    height: 40px;
+
+}
+.proyecto{
+    border: 1px solid #eee;
+    background-color: white;
+}
+.proyecto h2{
+    font-size: 16px;
+    color: white;
+    font-weight: 400;
+    background: rgb(80,12,4);
+    background: linear-gradient(90deg, rgba(80,12,4,1) 0%, rgba(196,36,36,1) 77%);
+
+}
+.proyecto p{
+    font-size: 14px;
+    height: 130px;
+}
+.proyecto img{
+    height: 212px;
+}
+.proyecto .btn-rojo{
+    width: 140px !important;
+
+}
+.whatsapp{
+    position: fixed;
+    right: 300px;
+    bottom: 0px;
+    background-color: #370a6d;
+    font-size: 32px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+.whatsapp a{
+    color: white;
+}
+.cohete{
+    height: 410px;
+}
+#Inicio img{
+    height: 400px;
+    display: block;
+    margin: auto;
+}
+#Inicio img:hover{
+    height: 410px;
+    cursor: pointer;
+
+}
+#Inicio p{
+    color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    font-weight: bold;
+    border-radius: 20px;
+
+}
+.my-5{
+    position: absolute; 
+    left: 100px; 
+    top: 220px;
+    
+}
